@@ -23,7 +23,7 @@
     <spec2.version>4.2.0</spec2.version>
   </properties>
 
-  <dependencyManagement>
+<dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>com.amazonaws</groupId>
@@ -130,7 +130,7 @@
           <junitxml>.</junitxml>
           <filereports>TestSuiteReport.txt</filereports>
           <!-- Comma separated list of JUnit test class names to execute -->
-          <jUnitClasses>samples.AppTest</jUnitClasses>
+          <jUnitClasses>samples.AppTest, samples.StackSuite, samples.MySpecTest</jUnitClasses>
         </configuration>
         <executions>
           <execution>
